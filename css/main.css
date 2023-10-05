@@ -1,0 +1,103 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #eee;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+
+.listing {
+  margin: 20px 0;
+}
+
+.listing h2 {
+  font-size: 1.5rem;
+}
+
+.listing h3 {
+  font-size: 1.25rem;
+}
+
+.listing .amenities {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.host {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.host-left {
+  flex: 1;
+}
+
+.host-right {
+  flex: 3;
+}
+
+.host img {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.host_name {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+
+.pt0 {
+  padding-top: 0 !important;
+}
+
+.bg-color {
+  background-color: #fff;
+}
+
+.name,
+.description,
+.price {
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+.ellipsis-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 22px;
+  line-height: 22px;
+}
+
+
+.sign-in {
+  margin-left: 400px;
+}
+
+
+.img {
+  height: 276px;
+  width: 414px;
+}
+
+.amenities h3 {
+  font-size: 18px;
+}
